@@ -96,7 +96,7 @@ function buttonBlinkEffect ( btnColor ){
 }
 
 function playButtonSound ( btnColor){
-    const btnSound = new Audio("./sounds/" + btnColor + ".mp3" );
+    const btnSound = new Audio("./" + btnColor + ".mp3" );
     btnSound.play();
 }
 
